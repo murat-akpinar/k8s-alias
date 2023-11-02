@@ -21,5 +21,8 @@ alias kdn='kubectl delete namespace'
 alias kep='kubectl edit pods'
 alias kdesp='kubectl describe pods'
 alias kexp='kubectl explain'
+
+alias knewtoken='kubeadm token create --print-join-command'
+
 EOL
 
